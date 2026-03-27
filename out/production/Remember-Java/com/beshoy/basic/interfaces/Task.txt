@@ -1,0 +1,113 @@
+
+2. Requirements
+A. Create an interface: “Drivable”
+Define a contract for anything that can be driven.
+It must enforce:
+A method that starts movement
+A method that stops movement
+A method that describes fuel usage or energy consumption behavior
+
+No implementation logic is defined here—only behavior requirements.
+
+B. Create an abstract class: “Vehicle”
+
+This class represents shared properties and behavior for all vehicles.
+
+It must include:
+
+State (common attributes):
+brand or manufacturer name
+model name
+current speed
+Behavior:
+A concrete method that prints basic vehicle information
+A concrete method that increases speed in a generic way
+At least one abstract method that forces subclasses to define specific movement behavior
+
+
+C. Create at least three concrete vehicle types
+
+Each must:
+
+extend the abstract class
+implement the interface
+override all required abstract methods
+
+Suggested types:
+
+Car
+Bicycle
+ElectricScooter
+
+Each type must define:
+
+how it starts moving (different behavior per type)
+how it stops
+how it consumes energy (fuel vs human effort vs electricity)
+
+
+
+D. Demonstrate runtime polymorphism
+
+In your main execution logic:
+
+Create a single reference using the abstract class type
+Assign it to different vehicle objects one after another
+Call methods using that reference and observe behavior differences
+
+You must ensure:
+
+overridden methods are executed based on actual object type
+only methods visible in the reference type can be called directly
+E. Interface-based polymorphism test
+Create references using the interface type
+Assign different vehicle objects to it
+Call interface methods and observe dynamic method dispatch
+F. Invalid access scenario (important conceptual test)
+
+Identify and demonstrate (mentally or via compilation attempt) what happens if:
+
+you try to call a method that exists only in a concrete vehicle class but not
+in the interface or abstract class reference
+
+You should understand:
+
+whether it compiles or fails
+why it fails
+G. Dynamic reassignment requirement
+
+In the same reference:
+
+assign different vehicle objects multiple times
+ensure behavior changes correctly at runtime
+
+You must clearly observe:
+
+object switching
+method dispatch changing accordingly
+3. Constraints
+Do NOT use any external libraries
+Focus on inheritance hierarchy correctness
+Ensure proper method overriding in every subclass
+Avoid duplicate logic by using shared methods in the abstract class where possible
+4. What you are being tested on
+
+If implemented correctly, you should demonstrate understanding of:
+
+Interfaces as behavioral contracts
+Abstract classes as partial implementations
+Method overriding
+Runtime polymorphism (dynamic method dispatch)
+Upcasting
+Reference type vs object type behavior difference
+Dynamic reassignment of polymorphic references
+5. Extension challenge (optional but recommended)
+
+Add a fourth vehicle type that:
+
+behaves significantly differently from the others
+forces you to rethink your abstraction design slightly (this tests whether
+your hierarchy is flexible or too rigid)
+
+If you want, after you implement it, you can paste your solution and
+I will review it like a code audit and point out design issues, inefficiencies, or misunderstandings.

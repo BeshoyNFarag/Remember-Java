@@ -1,0 +1,87 @@
+Comprehensive OOP Practice Task (No Code Provided)
+Theme: Banking System
+
+You are required to design and implement a small banking system that demonstrates encapsulation,
+method overloading, and method overriding in a single program.
+
+1. Encapsulation Requirements
+
+Create a class representing a bank account.
+
+Requirements:
+Define at least the following fields:
+account holder name
+account balance
+All fields must be private
+Access control rules:
+Provide public methods to:
+retrieve account holder name
+retrieve balance
+Do NOT allow direct modification of balance from outside the class
+Balance changes must only occur through controlled methods
+2. Method Overloading Requirements
+
+Within the account class, implement overloaded methods for financial operations.
+
+Deposit functionality:
+Implement at least two versions of deposit:
+One that accepts only an amount
+One that accepts an amount and an additional parameter representing currency
+
+Withdraw functionality:
+Implement at least two versions of withdraw:
+One that accepts only an amount
+One that accepts an amount plus an additional boolean parameter indicating whether the withdrawal is
+performed at an ATM
+Business rules for overloading:
+Currency-based deposit must involve a conversion rule
+ATM withdrawals must apply an additional fee
+
+
+3. Method Overriding Requirements
+
+Introduce inheritance by creating at least two specialized account types.
+
+Requirements:
+Create a base account class
+Create at least two subclasses representing different account types
+
+
+Overriding rules:
+Each subclass must override the withdrawal behavior with distinct rules:
+
+One account type must restrict withdrawals if the balance would drop below a minimum threshold
+The other account type must allow overdraft up to a defined negative limit
+
+
+
+
+
+4. Polymorphism Requirements
+
+In the main execution logic:
+
+Requirements:
+Use base class references to store subclass objects
+Invoke overridden methods through base class references
+Demonstrate that behavior changes depending on the actual object type
+
+
+
+5. Additional Design Requirement
+Implement a method that prints account details
+This method must be overridden in subclasses to include account-type-specific information
+6. What your solution must demonstrate
+
+Your final implementation must clearly show:
+
+Proper encapsulation of sensitive financial data
+Correct method overloading within the same class
+Correct method overriding across inheritance hierarchy
+Runtime polymorphism using base class references
+
+If you want next, I can:
+
+give you a checklist to validate your solution
+or review your implementation after you code it
+or increase difficulty with interfaces + abstract classes + design constraints (industry-level version)
