@@ -1,0 +1,64 @@
+1. Create a class: AppConfig
+
+This class represents global configuration.
+
+Requirements:
+A. Static variables
+
+Define:
+
+application name
+version number
+a boolean flag (e.g., debug mode)
+a numeric value (e.g., max users or max connections)
+B. Static block (core requirement)
+
+Use a static block to:
+
+initialize all static variables
+simulate loading configuration (hardcode values)
+print a message like:
+“Loading configuration...”
+Important:
+
+This block should clearly show it runs only once, no matter how many objects are created.
+
+2. Create a class: UserService
+
+This class represents a service using the configuration.
+
+Requirements:
+It should have a method that:
+prints the application name
+behaves differently depending on debug mode
+
+Example behavior (conceptually):
+
+if debug mode → print detailed logs
+otherwise → print minimal output
+
+
+
+3. Create another class: PaymentService
+Requirements:
+Also use values from AppConfig
+Use the numeric config value (e.g., max users/connections) in some logic
+Print something that proves it accessed the same shared configuration
+4. Main class (important part)
+
+In your main:
+A. Demonstrate static block behavior
+Access AppConfig in any way
+Observe when the static block runs
+B. Create multiple objects
+Create multiple UserService and PaymentService objects
+You must verify:
+static block runs only once
+configuration is shared across all objects
+
+5. Advanced Requirement (Important for understanding)
+Add a method somewhere that:
+modifies one of the static variables
+Then:
+create another object afterward
+verify that the change is reflected globally

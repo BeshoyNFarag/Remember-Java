@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0b0fab8a-0ceb-401d-8cd1-9886beb01918" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="0b0fab8a-0ceb-401d-8cd1-9886beb01918" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,16 +17,10 @@
       </list>
     </option>
   </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
-  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
 }</component>
   <component name="ProjectId" id="3BM0XXlSXnvg2hbBYn75VmuRJVw" />
-  <component name="ProjectLevelVcsManager">
-    <ConfirmationsSetting value="1" id="Add" />
-  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -43,22 +35,19 @@
     "Application.OneDArray.executor": "Run",
     "Application.OutputFromatting.executor": "Run",
     "Application.Overriding.executor": "Run",
-    "Application.PracticeArrayList.executor": "Run",
     "Application.TryCatch.executor": "Run",
     "Application.UserNameChecker.executor": "Run",
     "Application.UserNamechecker.executor": "Run",
     "Application.VarArg.executor": "Run",
     "Application.main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "non-oop",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/Courses/Remember-Java",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
+    "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "vue.rearranger.settings.migration": "true"
@@ -68,17 +57,6 @@
     <key name="MoveInnerDialog.RECENTS_KEY">
       <recent name="" />
     </key>
-  </component>
-  <component name="RunManager">
-    <configuration name="PracticeArrayList" type="Application" factoryName="Application" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="23" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="PracticeArrayList" />
-      <module name="java-not-oop" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -98,8 +76,6 @@
       <updated>1774283675806</updated>
       <workItem from="1774283677241" duration="10306000" />
       <workItem from="1774443510819" duration="12973000" />
-      <workItem from="1774529760177" duration="1287000" />
-      <workItem from="1774531345979" duration="131000" />
     </task>
     <servers />
   </component>
